@@ -9,6 +9,6 @@
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="JDK1.8" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/out" />
+    <output url="file://$PROJECT_DIR$/../../../inflearn/jpa - basic/ex2-book-jpa/out" />
   </component>
 </project>
