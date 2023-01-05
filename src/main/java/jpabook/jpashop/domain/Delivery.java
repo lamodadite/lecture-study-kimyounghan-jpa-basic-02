@@ -3,7 +3,7 @@ package jpabook.jpashop.domain;
 import javax.persistence.*;
 
 @Entity
-public class Delivery {
+public class Delivery extends BaseEntity{
 
     @Id
     @GeneratedValue
@@ -19,7 +19,7 @@ public class Delivery {
     @Enumerated(EnumType.STRING)
     private DeliveryStatus status;
 
-    @OneToOne(mappedBy = "DELIVERY")
+    @OneToOne(mappedBy = "delivery")
     private Order oder;
 
 
